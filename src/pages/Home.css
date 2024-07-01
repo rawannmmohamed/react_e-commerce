@@ -1,0 +1,32 @@
+.background-img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+h1,
+.container {
+  background-color: transparent;
+}
+h1 {
+  color: white;
+  font-size: 48px;
+}
+.explore {
+  width: 223px;
+  height: 75px;
+  font-size: 20px;
+  background-color: #ffb870;
+  color: #1d0000;
+  padding: 25px 47px;
+  border-radius: 72px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 270px;
+  z-index: 2;
+  gap: 50px;
+}
