@@ -1,10 +1,10 @@
-main{
+main {
   background-image: url("/assets/top-view-desk-with-keyboard-drawing-pad.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   flex-direction: column;
-  
+ 
 }
 h1,
 .container {
@@ -35,4 +35,29 @@ p {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   margin: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    margin: 150px 0;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 70px 0;
+    gap: 10px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .explore {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+  p {
+    margin: 40px;
+  }
 }

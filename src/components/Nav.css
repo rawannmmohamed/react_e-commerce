@@ -7,7 +7,6 @@ nav {
   width: 100%;
   border-bottom: white 1px solid;
   padding: 45px 35px;
-
 }
 nav,
 h2,
@@ -30,9 +29,33 @@ h2 {
 
 .nav-links li a {
   text-decoration: none;
+  transition: 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #bbb;
 }
 button {
   width: 36px;
   cursor: pointer;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .nav-links {
+    gap: 15px;
+  }
+  .nav-links li a {
+    font-size: 14px;
+  }
 }
