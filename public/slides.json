@@ -1,6 +1,6 @@
 [
-  { "name": "Camera 1", "price": "$97.70" },
-  { "name": "Camera 1", "price": "$97.70" },
-  { "name": "Camera 1", "price": "$97.70" },
-  { "name": "Camera 1", "price": "$97.70" }
+  { "name": "Camera 1", "price": "$97.70", "image": "/assets/camera1.png" },
+  { "name": "Camera 2", "price": "$97.70", "image": "/assets/camera2.png" },
+  { "name": "Camera 3", "price": "$97.70", "image": "/assets/camera3.png" },
+  { "name": "Camera 4", "price": "$97.70", "image": "/assets/camera4.png" }
 ]
