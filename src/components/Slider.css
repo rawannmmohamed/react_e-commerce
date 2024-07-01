@@ -1,4 +1,9 @@
 .slider {
-  padding-bottom: 55px;
-  
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 50px;
+}
+.slides {
+  display: flex;
+  list-style: none;
 }

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-image: url("../assets/camera1.png");
   background-size: cover;
   width: 360px;
   height: 360px;
