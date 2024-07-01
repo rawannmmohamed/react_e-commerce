@@ -1,9 +1,12 @@
 .slider {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   overflow-x: auto;
   padding-bottom: 50px;
 }
 .slides {
   display: flex;
   list-style: none;
+
 }

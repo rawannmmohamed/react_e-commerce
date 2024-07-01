@@ -1,7 +1,10 @@
-.background-img {
-  position: relative;
-  width: 100%;
-  z-index: 1;
+main{
+  background-image: url("/assets/top-view-desk-with-keyboard-drawing-pad.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  
 }
 h1,
 .container {
@@ -25,10 +28,8 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: absolute;
-  top: 270px;
-  z-index: 2;
   gap: 50px;
+  margin: 200px 0 100px 0;
 }
 p {
   font-size: 40px;

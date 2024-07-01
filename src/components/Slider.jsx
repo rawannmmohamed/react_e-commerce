@@ -24,6 +24,7 @@ const Slider = () => {
 
   return (
     <div className="slider">
+      <p>OUR SHOP</p>
       <ul className="slides">
         {data.map((card, index) => (
           <Card key={index} name={card.name} price={card.price} image={card.image} />
