@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url("../assets/camera1.png");
+  background-size: cover;
+  width: 360px;
+  height: 360px;
+  margin: 0 60px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 122px;
+  padding: 25px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 28px;
+}
+.title,
+.price,
+.description,
+.info,
+.card-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.card-button {
+  width: 67px;
+  padding: 12px;
+  border: 2px solid white;
+  font-size: 13px;
+  border-radius: 4px;
+  font-weight: 500;
+}
