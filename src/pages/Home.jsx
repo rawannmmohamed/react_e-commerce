@@ -12,9 +12,10 @@ const Home = () => {
       />
       <Nav />
       <div className="container">
-      <h1>Be creative!</h1>
-      <button className="explore">Explore more</button>
+        <h1>Be creative!</h1>
+        <button className="explore">Explore more</button>
       </div>
+      <p>OUR SHOP</p>
       <Slider />
     </main>
   );
